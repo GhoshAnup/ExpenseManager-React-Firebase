@@ -1,7 +1,7 @@
 import * as firebase from 'firebase';
 
 const config = {
-    apiKey: "AIzaSyBksjkv-dN-sJBMr2gjnr0cOIxit_Bgz-Y",
+    apiKey: "",
     authDomain: "expensemanager-edf83.firebaseapp.com",
     databaseURL: "https://expensemanager-edf83.firebaseio.com",
     projectId: "expensemanager-edf83",
