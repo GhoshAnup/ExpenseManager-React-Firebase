@@ -2,11 +2,11 @@ import * as firebase from 'firebase';
 
 const config = {
     apiKey: "",
-    authDomain: "expensemanager-edf83.firebaseapp.com",
-    databaseURL: "https://expensemanager-edf83.firebaseio.com",
-    projectId: "expensemanager-edf83",
-    storageBucket: "expensemanager-edf83.appspot.com",
-    messagingSenderId: "561522763638"
+    authDomain: "",
+    databaseURL: "",
+    projectId: "",
+    storageBucket: "",
+    messagingSenderId: ""
   };
 
 
