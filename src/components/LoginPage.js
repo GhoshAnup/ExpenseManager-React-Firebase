@@ -1,11 +1,14 @@
 import React from 'react';
 import {connect} from 'react-redux';
 import { startLogin } from '../actions/auth';
-//import { firebase, googleAuthProvider } from '../firebase/firebase';
 
 export const LoginPage = ({startLogin}) => (   
-    <div>
-      <button onClick={startLogin}>Login</button>
+    <div className="box-layout">
+    <div className="box-layout__box">
+      <h1 className="box-layout__title">Expensify</h1>
+      <p> This is your expense manager</p>
+      <button onClick={startLogin} className="button">Login with Google</button>
+    </div>      
     </div>
   );
   const mapDispatchToProps = (dispatch) => ({
@@ -13,13 +16,3 @@ export const LoginPage = ({startLogin}) => (
   });  
   export default connect(undefined, mapDispatchToProps)(LoginPage);
 
-// export const LoginPage = () => (
-//     <div>
-//       <button onClick={startLogin}>Login</button>
-//     </div>
-//   );
-
-//   const startLogin = () => {
-//     firebase.auth().signInWithPopup(googleAuthProvider);
-// }
-// export default LoginPage;
